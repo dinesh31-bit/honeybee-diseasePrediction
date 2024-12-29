@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&display=swap');
+
+.bg-container1 {
+    background-image: url("https://th.bing.com/th/id/OIP.PCYI0zJIex6CLjelUP1sCQHaEK?w=317&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.home-card1 {
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 24px;
+}
+
+.home-heading {
+    font-family: "Caveat", cursive;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.home-paragraph {
+    color: grey;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.bg-container2 {
+    background-image: url("https://th.bing.com/th/id/OIP.O3K5QS9HPfswfYvmgf9ILQHaE8?w=259&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-size: cover;
+}
+
+.dd {
+    padding-left: 15px;
+    margin-left: 20px;
+}
+
+.tourism-card, .tourism-card-2 {
+    background: transparent;
+    border-radius: 20px;
+    margin: 24px;
+    padding: 5px;
+}
+
+.text-arrange {
+    margin: 3px;
+    padding: 3px;
+    width: 37vw;
+    height: 70vh;
+}
+
+.con1 {
+    font-family: "Forte", sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.con2 {
+    font-family: "Matura MT Script Capitals", cursive;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.upload-but, #submitButton {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #4caf50; /* Green button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}

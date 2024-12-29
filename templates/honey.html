@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container1 {
+    background-image: url("https://th.bing.com/th/id/OIP.PCYI0zJIex6CLjelUP1sCQHaEK?w=317&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.home-card1 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 24px;
+}
+
+.home-heading {
+    font-family: "Caveat";
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.home-paragraph {
+    color: grey;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.bg-container2 {
+    background-image: url("https://th.bing.com/th/id/OIP.O3K5QS9HPfswfYvmgf9ILQHaE8?w=259&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-size: cover;
+}
+
+.dd{
+    padding-left:15px;
+    margin-left:20px;
+}
+
+.tourism-card {
+    background-image:transparent;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 24px;
+    padding-left: 25px;
+
+}
+.tourism-card-2 {
+    background-image: url("https://th.bing.com/th/id/OIP.H0P1vEdfCBDxSZmM2nhhqQHaEo?w=234&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 24px;
+    padding: 5px;
+
+}
+.up-img{
+    text-align: center;
+    
+}
+.con2{
+    
+    font-family: "Matura MT Script Capitals";
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.con1{
+    
+    font-family: "Forte";
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.image-size {
+    height: 200px;
+    width: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+    margin: 5px;
+}
+
+.text-arrange {
+    margin: 3px;
+    padding: 3px;
+    width: 37vw;
+    height: 70vh;
+}
+
+.bg-container3 {
+    background-image: url("https://wallpapercave.com/wp/wp5148323.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.card-heading {
+    color: black;
+    font-family: "Roboto";
+    font-size: 25px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.tourism-paragraph {
+    color: grey;
+    font-family: "Roboto";
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.carousel-size {
+    height: 50vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.box-view {
+    margin: 50px;
+}
+.upload-but {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #4caf50; /* Green button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#submitButton {
+    margin-top:15px;
+    padding: 10px;
+    background-color: #4caf50; /* Green button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+</style>
+
+<body>
+    <div id="section1">
+        <div class="bg-container1 d-flex flex-column justify-content-end">
+            <div class="home-card1 ">
+                <h1 class="home-heading"> Honeybee Disease Pred </h1>
+                <p class="home-paragraph"> "The hum of bees is the voice of the garden" </p>
+                <button class="btn btn-primary" onclick="display('section2')">
+                    Get Started
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="section2">
+        <div class="dd bg-container2">
+            <h1 class="home-heading"> Honeybee  Disease Pred </h1>
+            <div class="d-flex flex-row justify-content-start">
+                <div class="tourism-card d-flex flex-row">
+                    <div class="text-arrange">
+                        <h1> About Project </h1>
+                        <p class="con1">
+                            The project was made using python, tensorflow, flask for backend development and HTML/CSS<br/><br/>
+                            we took 2 classes and name it as infected honeybee and heakthy honeybee <br/><br/>
+                            And devided the data into training and testing we trained 70% of the data to the CNN modeland tested the remaining 30% data
+                            we used cnn model to train the image and saved the file as keras_model.h5.<br/><br/>
+                           on left side you can see buttons  for uploading images, clicking on that will open a dialog box where you can select your image
+                    </div>
+                    
+                </div>
+                <div class="tourism-card-2 d-flex flex-row">
+                    <div class="text-arrange">
+                        <h1 class="up-img"> Upload Image </h1><br/><br/>
+                        <p class="con2">Click Choose file button to select Image</p><br/><br/>
+                        <div class="form-container">
+                            <h1>Upload a Report</h1>
+                            <form action="/classify" method="POST" enctype="multipart/form-data">
+                                <input type="file" name="image">
+                                <input type="submit" value="Classify">
+                            </form><br><br><br>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+            
+            <div class="d-flex flex-row justify-content-center">
+                <button class="btn btn-dark mr-5" onclick="display('section1')">
+                    Back
+                </button>
+                <button class="btn btn-success" onclick="display('section1')">
+                    to verify more
+                </button>
+            
+
+            </div>
+        </div>
+    </div>
+    <div id="section3.1">
+        <div class="bg-container3">
+            <h1 class="home-heading"> Detailed view </h1>
+            <div class="box-view">
+                <div class="tourism card">
+                    <div id="carousel1" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel1" data-slide-to="1"></li>
+                            <li data-target="#carousel1" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://www.thenewsminute.com/sites/default/files/Tirumala_Venkateswara_temple_entrance_Nikhil%20B%20-%20Wikimedia%20Commons1200x800.jpg" class="d-block w-100 carousel-size " alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://www.hindubhagwan.com/Gallery/images/portfolio/full/venkateswara_images.jpg" class="carousel-size" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://cdn.mwallpapers.com/photos/religious/lord-perumal/lord-perumal-best-hd-photos-1080p-mmetqb.jpg" class="carousel-size" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div>
+                        <h1 class="card-heading"> Tirumala </h1>
+                        <p class="tourism-paragraph "> Lord Sri Venkateswara, also known as Srinivasa, Balaji, and Veṅkaṭachalapati, made Tirumala his abode five thousand years ago. Even before him, it was Lord Varahaswami who had made Tirumala his abode. Since then, many devotees have continued to construct grand entrances on the ramparts of the temple over generations. The temple complex is spread over 16.2 acres of land.In Tirumala, the East facing Sri Varahaswami temple is located in the North West corner of the temple tank - Swami Pushkarini. As per the temple legend, Lord Srinivasa sought a gift of land from Sri Varahaswami, which he readily granted.
+                            In return, Srinivasa provided him with an agreement deed assuring that he would be paid the first darshan, worship and offerings by all the devotees visiting the temple. This tradition is in practise to this day at Tirumala and Lord Varahaswami continues to receive the age old traditional worship. Even today, all offerings are first made to Lord Varahaswami and then to Lord Sri Venkateswara.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('section2')"> Back </button>
+        </div>
+    </div>
+    <div id="section3.3">
+        <div class="bg-container3">
+            <h1 class="home-heading"> Detailed view </h1>
+            <div class="box-view">
+                <div class="tourismm card">
+                    <div id="carousel3" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel3" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel3" data-slide-to="1"></li>
+                            <li data-target="#carousel3" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://hblimg.mmtcdn.com/content/hubble/img/dest_img/mmt/activities/m_Maldives_dest_landscape_l_755_1487.jpg" class="carousel-size" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://kandima.com/images/Screenshot_2022-04-27_at_161015.png" class="carousel-size" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://hblimg.mmtcdn.com/content/hubble/img/new_dest_imagemar/mmt/activities/m_Maldives_3_l_1383_2048.jpg" class="carousel-size" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel3" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel3" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div>
+                        <h1 class="card-heading"> Maldives</h1>
+                        <p class="tourism-paragraph"> Maldives, in full Republic of Maldives, also called Maldive Islands, independent island country in the north-central Indian Ocean. It consists of a chain of about 1,200 small coral islands and sandbanks (some 200 of which are inhabited), grouped in clusters, or atolls.The islands extend more than 510 miles (820 km) from north to south and 80 miles (130 km) from east to west. The northernmost atoll is about 370 miles (600 km) south-southwest of the Indian mainland, and the central area, including the capital island of Male (Male’), is about 400 miles (645 km) southwest of Sri Lanka</p>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('section2')"> Back </button>
+        </div>
+    </div>
+    <div id="section3.4">
+        <div class="bg-container3">
+            <h1 class="home-heading"> Detailed view </h1>
+            <div class="box-view">
+                <div class="tourism card">
+                    <div id="carousel4" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel4" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel4" data-slide-to="1"></li>
+                            <li data-target="#carousel4" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://tours.tripexplorer.com/wp-content/uploads/2018/11/Gods-Own-1.jpg" class="d-block w-100 carousel-size " alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://thetravelhack.com/wp-content/uploads/2020/06/Kerala-backwaters.jpeg.webp" class="carousel-size" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://media.istockphoto.com/photos/tea-plantations-and-river-in-hills-kerala-india-picture-id511119924?k=20&m=511119924&s=612x612&w=0&h=rvf_RR1Wz1fSEn5KPZJXuQ-GqDmFI9Pj_LfUFcVbpik=" class="carousel-size" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel4" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel4" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div>
+                        <h1 class="card-heading"> Kerala </h1>
+                        <p class="tourism-paragraph"> Kerala, southwestern coastal state of India. It is a small state, constituting only about 1 percent of the total area of the country. Kerala stretches for about 360 miles (580 km) along the Malabar Coast, varying in width from roughly 20 to 75 miles (30 to 120 km). It is bordered by the states of Karnataka (formerly Mysore) to the north and Tamil Nadu to the east and by the Arabian Sea to the south and west; it also surrounds Mahe, a segment of the state of Puducherry, on the northwestern coast. The capital is Thiruvananthapuram (Trivandrum).
+                            Although isolated from the Indian interior by the mountainous belt of the Western Ghats, Kerala has been exposed to many foreign influences via its long coastline; consequently, the state has developed a unique culture within the subcontinent, not only with a diverse religious tradition but also with its own language, Malayalam. Also notable is the high social status that continues to be accorded to women of Kerala, owing to the former strength of a matrilineal kinship system. Area 15,005 square miles (38,863 square km). Pop. (2011) 33,387,677.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('section2')"> Back </button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&display=swap');
+
+        .bg-container {
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+
+        .section-title {
+            font-family: "Bree Serif", serif;
+            font-size: 24px;
+            color: #333;
+            margin-top: 20px;
+        }
+
+        .section-content {
+            font-family: "Roboto", sans-serif;
+            font-size: 18px;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-back {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-container">
+        <div class="container">
+            <h1 class="section-title">How to Keep Honey Bees Healthy</h1>
+            <div class="image-container">
+                <img src="image.png" alt="Bees on Hive">
+                <img src="images.jpeg" alt="Bee Close-up">
+            </div>
+            <p class="section-content">
+                Keeping honey bees healthy involves several practices:
+                <ul>
+                    <li>Providing a clean environment and proper ventilation in the hive.</li>
+                    <li>Ensuring access to diverse and abundant floral sources for good nutrition.</li>
+                    <li>Regularly inspecting the hive for signs of disease or pests.</li>
+                    <li>Using integrated pest management techniques to control mites and other pests.</li>
+                    <li>Maintaining genetic diversity within colonies to promote resilience.</li>
+                </ul>
+            </p>
+            <p class="section-content">
+                To check if your bees are healthy, look for:
+                <ul>
+                    <li>Active and consistent foraging behavior.</li>
+                    <li>Presence of capped brood and a laying queen.</li>
+                    <li>Minimal presence of pests such as Varroa mites.</li>
+                    <li>Good hive hygiene and cleanliness.</li>
+                </ul>
+            </p>
+            <p class="section-content">
+                Awareness about honey bees is crucial. They are essential pollinators, contributing to the health of ecosystems and agriculture. Protecting bees ensures food security and biodiversity. Avoiding pesticides, planting bee-friendly flowers, and supporting local beekeepers are ways to help.
+            </p>
+            <button class="btn btn-secondary btn-back" onclick="window.location.href='knowmore.html'">Back</button>
+        </div>
+    </div>
+</body>
+</html>

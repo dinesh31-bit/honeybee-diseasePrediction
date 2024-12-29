@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&display=swap');
+
+        .bg-container1 {
+            background-image: url("https://th.bing.com/th/id/OIP.PCYI0zJIex6CLjelUP1sCQHaEK?w=317&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+            background-size: cover;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .home-card1 {
+            border-radius: 15px;
+            background-color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 24px;
+        }
+
+        .home-heading {
+            font-family: "Caveat", cursive;
+            font-weight: bold;
+            font-size: 100px;
+        }
+
+        .home-paragraph {
+            color: grey;
+            font-family: "Roboto", sans-serif;
+            font-size: 20px;
+        }
+
+        .content-section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+        }
+
+        .section-title {
+            font-family: "Bree Serif", serif;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .section-content {
+            font-family: "Roboto", sans-serif;
+            font-size: 18px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="section1" class="bg-container1">
+        <div class="container">
+            <div class="home-card1">
+                <h1 class="home-heading">Honeybee Health Guide</h1>
+            </div>
+            <div class="content-section" onclick="window.location.href='section1.html'">
+                <h2 class="section-title">1. How to Keep Honey Bees Healthy</h2>
+                <p class="section-content">Learn how to maintain the health of your honey bees.</p>
+            </div>
+            <div class="content-section" onclick="window.location.href='section2.html'">
+                <h2 class="section-title">2. How to Overcome the DWV Virus</h2>
+                <p class="section-content">
+                    Discover strategies to combat the Deformed Wing Virus (DWV) in honey bees.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

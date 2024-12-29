@@ -1,0 +1,2 @@
+0 healthy bee
+1 infected bee
